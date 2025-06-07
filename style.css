@@ -1,0 +1,73 @@
+body {
+    font-family: sans-serif;
+}
+
+.text-about-me{
+    width: 300px;
+    float:right;
+}
+
+.img-about-me{
+    width: 200px;
+    float:left;
+
+}
+
+.about{
+    border: 5px solid blue;
+    padding: 10px;
+    height: 200px;
+    margin-bottom: 40px;
+
+
+}
+
+h1{
+    text-align: center;
+    color: blue;
+    background-color: lightblue;
+    height: 50px;
+    padding-top: 16px;
+}
+
+.link-header::before{
+    content: "🏠";
+    height: 50px;
+    width: 50px;
+}
+
+ul{
+    list-style: "💙";
+}
+
+span{
+    font-size: 18px;
+    color: blue;
+    background-color: lightblue;
+    padding: 2px;
+}
+
+span:hover{
+    color: orange;
+    background-color: yellow;
+
+}
+
+footer{
+    height: 100px;
+    background-image: linear-gradient(to left, lightblue, white, orange);
+    padding-bottom: 20px ;
+}
+
+.social{
+    margin-top: 20px;
+    margin-left: 10px;
+
+}
+
+.social-vk{
+    margin-top: 10px;
+    margin-left: 10px;
+
+
+}
